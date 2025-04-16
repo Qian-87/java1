@@ -45,7 +45,7 @@ test {
 }
 
 jacocoTestReport 
-{ dependsOn test 
+{ dependsOn test // after execute will test 
 reports { 
     xml.required = true 
     html.required = true 
